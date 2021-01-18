@@ -17,7 +17,7 @@ namespace Opifex.Scim2.Core.Exceptions
 
         }
 
-        public QualityValueFormatException(string message, Exception innerException) 
+        public QualityValueFormatException(string message, Exception innerException)
             : base(message, innerException)
         {
 

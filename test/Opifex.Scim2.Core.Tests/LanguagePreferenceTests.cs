@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Opifex.Scim2.Core.Exceptions;
 
@@ -29,7 +28,7 @@ namespace Opifex.Scim2.Core.Tests
         [DataRow("az-Latn-AZ")]
         [DataRow("bs-Cyrl-BA")]
         [DataRow("smn-FI")]
-        [DataRow("en-029")]
+        [DataRow("en-001")]
         public void Ctor_ForValidLanguage_SetsLanguageProperty(string expected)
         {
             // Arrange

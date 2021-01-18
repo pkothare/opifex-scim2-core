@@ -17,7 +17,7 @@ namespace Opifex.Scim2.Core.Exceptions
 
         }
 
-        public ArgumentWhiteSpaceException(string message, Exception innerException) 
+        public ArgumentWhiteSpaceException(string message, Exception innerException)
             : base(message, innerException)
         {
 

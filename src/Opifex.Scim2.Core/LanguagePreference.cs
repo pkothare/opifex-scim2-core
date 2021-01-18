@@ -32,7 +32,7 @@ namespace Opifex.Scim2.Core
             {
                 Language = "*";
             }
-            else if(!_allCultures.Contains(language, StringComparer.InvariantCultureIgnoreCase))
+            else if (!_allCultures.Contains(language, StringComparer.InvariantCultureIgnoreCase))
             {
                 throw new LanguagePreferenceException();
             }
