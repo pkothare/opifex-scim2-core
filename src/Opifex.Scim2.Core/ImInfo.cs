@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Opifex.Scim2.Core
+﻿namespace Opifex.Scim2.Core
 {
     public class ImInfo
     {

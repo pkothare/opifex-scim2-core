@@ -17,7 +17,7 @@ namespace Opifex.Scim2.Core.Exceptions
 
         }
 
-        public LanguagePreferenceFormatException(string message, Exception innerException) 
+        public LanguagePreferenceFormatException(string message, Exception innerException)
             : base(message, innerException)
         {
 

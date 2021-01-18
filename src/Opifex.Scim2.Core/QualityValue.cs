@@ -34,18 +34,18 @@ namespace Opifex.Scim2.Core
 
         public static QualityValue Parse(string value)
         {
-            if(value == null)
+            if (value == null)
             {
                 throw new ArgumentNullException(nameof(value));
             }
-            if(string.IsNullOrWhiteSpace(value))
+            if (string.IsNullOrWhiteSpace(value))
             {
                 throw new ArgumentWhiteSpaceException(nameof(value));
             }
             value = value.Trim();
             if (value.StartsWith("q=", StringComparison.InvariantCultureIgnoreCase))
             {
-                if(value.Length < 3)
+                if (value.Length < 3)
                 {
                     throw new QualityValueFormatException(value);
                 }

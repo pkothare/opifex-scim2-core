@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Mail;
-using System.Text;
+﻿using System.Net.Mail;
 
 namespace Opifex.Scim2.Core
 {
@@ -10,9 +7,9 @@ namespace Opifex.Scim2.Core
         public EmailInfo(string address)
             : base(address)
         {
-            
+
         }
-        
+
         public string Type { get; }
 
         public bool Primary { get; }
